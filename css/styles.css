@@ -1,0 +1,33 @@
+.row.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.enter-address {
+  display: flex;
+}
+
+.enter-address input {
+  margin-right: .5em;
+}
+
+#top-section {
+  height: 180px;
+}
+
+#mapContainer {
+  height: 800px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#sidebar {
+  display: inline-block;
+  position: absolute;
+  padding: 15px;
+  background: #CDD2D4;
+  height: 800px;
+  overflow: auto;
+  margin-left: 8px;
+}
